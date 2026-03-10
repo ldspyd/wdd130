@@ -1,0 +1,58 @@
+/* Add your CSS here to style your valentines day page */
+body {
+    background-color: lightblue;
+
+}
+
+#wrapper {
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    margin: 50px;
+    border: 5px solid;
+    border-color: salmon;
+    border-radius: 5%;
+    background-color: lightgoldenrodyellow;
+}
+
+ul {
+    font-family: dunkin;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    width: 500px;
+    align-self: center;
+    text-align: left;
+    justify-self: center;
+    justify-content: space-around;
+}
+
+img {
+    width: 300px;
+    transition: transform 40s;
+    background-image: url('../images/logo.png');
+    /* padding: 10%; */
+}
+
+img:hover {
+    /* transform: scale(5000); */
+    transform: rotate3d(20, 12, 3, 350000deg) scale(50);
+    opacity: .7;
+}
+
+h1 {
+    font-family: Midnight Angel;
+    color:brown;
+}
+
+h2 {
+    color:rgb(250, 183, 183) ;
+    justify-self: center;
+    width: 300px;
+    font-family: Midnight Angel;
+}
+
+p {
+    color: black;
+    font-family: nanum brush script;
+    width: 750px;
+}

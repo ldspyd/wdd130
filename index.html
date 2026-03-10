@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <img src="images/logo.png" alt="Logo Image" />
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="wwr/index.html" target="_blank">WWR</a></li>
+                    <li><a href="ice/ice.html" target="_blank">ICE</a></li>
+                    <li><a href="#" target="_blank">Project</a></li>
+                </ul>
+            </nav>
+            <button id="donate" onclick="alert('Thank you!')">Donate</button>
+        </header>
+        <div id="intro">
+            <img id="main-image" src="images/main.png" alt="main image" />
+            <p id="welcome-message">
+                Welcome! You can see what I have done.<br>
+                There are web development projects with HTML and CSS files.
+            </p>
+            <h2>Yedam Park Portal page</h2>
+            
+            <button id="hello" onclick="alert('Welcome')">Hello :)</button>
+        </div>
+        <hr>
+        <main>
+            <h3>Projects</h3>
+            <h4>WWR</h4>
+            <h4>ICE</h4>
+            <h4>Project</h4>
+            <section id="wwr">
+                <!-- <a href="wwr/"><img src="images/wwr.png" alt="wwr image"></a> -->
+            </Section>
+            
+            <section id="ice">
+                <!-- <a href="ice/"><img src="images/ice.png" alt="ice image"></a> -->
+            </Section>
+            
+            <section id="project">
+                <!-- <a href="project/"><img src="images/project.png" alt="project image"></a> -->
+            </Section>
+            
+            
+        </main>
+        <hr>
+        <div id="aboutme">
+            <h4 class="about-me-heading">About Me</h4>
+            <p id="about-me-description">
+                I enjoy web designing!<br>
+                And I would love to work with you!
+            </p>
+            <section>
+                <h4>Me getting into projects:</h4>
+                <img id="me" src="images/me.png" alt="My image">
+            </section>
+            <section>
+                <h4>Summary of my projects</h4>
+                <table class="blueTable">
+                    <tr>
+                        <th>Project</th>
+                        <th>Main focus</th>
+                        <th>Fun Fact</th>
+                    </tr>
+                    <tr>
+                        <td>WWR</td>
+                        <td>Introduction</td>
+                        <td>I want to do it</td>
+                    </tr>
+                    <tr>
+                        <td>ICE</td>
+                        <td>Ability checking</td>
+                        <td>Very fun</td>
+                    </tr>
+                    <tr>
+                        <td>Project</td>
+                        <td>Unknown</td>
+                        <td>I don't know what is it</td>
+                    </tr>
+                    <tr>
+                        <td>Personal project</td>
+                        <td>Beyond the class</td>
+                        <td>I haven't started it</td>
+                    </tr>
+                </table>
+            </Section>
+        </div>
+        <hr>
+        <footer>
+            <p>&copy; Yedam Park 2026</p>
+            
+            <div id="contact">
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" rows="4" cols="20" required></textarea>
+                    
+                    <div class="stretch">
+                        <label for="newsletter">Subscribe to our newsletter:</label>
+                        <input type="checkbox" id="newsletter" name="newsletter" value="yes" required>
+                    </div>
+                    <input type="submit"></input>
+                </form>
+            </div>
+            <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
