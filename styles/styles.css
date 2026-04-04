@@ -196,6 +196,9 @@ main section {
 main section:hover {
     transform: scale(1.1);
 }
+main #client_main {
+    grid-column: 1 / 4;
+}
 
 h4 {
     height: 10%;
