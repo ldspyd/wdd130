@@ -97,8 +97,7 @@ nav ul {
 
 nav li{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50px;
+    grid-template-rows: 50px;   
     justify-content: space-evenly;
     list-style-type: none;
     margin: 0;
@@ -221,7 +220,7 @@ h4 {
 }
 
 #project {
-    background-image: url("../images/project.png");
+    background-image: url("../plans/project_logo.png");
     background-size: 100%;
     
 }
