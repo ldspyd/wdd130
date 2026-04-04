@@ -197,6 +197,7 @@ main section:hover {
 }
 main #client_main {
     grid-column: 1 / 4;
+    margin: 20px;
 }
 
 h4 {
